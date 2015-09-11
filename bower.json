@@ -1,0 +1,11 @@
+{
+  "name": "rtc-koa-angular",
+  "dependencies": {
+    "angular": "*",
+    "jquery": "*",
+    "socket.io-client": "*",
+    "bootstrap": "*",
+    "angular-bootstrap": "*"
+  },
+  "directory": "~/frontend/app/vendor/"
+}

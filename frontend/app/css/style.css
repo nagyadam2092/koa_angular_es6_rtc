@@ -1,0 +1,15 @@
+body {
+	min-height: 2000px;
+	padding-top: 70px;
+}
+
+.chatBox{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: grey;
+}
+
+.chatMessage{
+	/*nothing*/
+}

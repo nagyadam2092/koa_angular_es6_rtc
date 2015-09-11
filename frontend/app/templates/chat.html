@@ -1,0 +1,8 @@
+<div class="chatBox">
+	<div ng-repeat="message in messages" class="chatMessage">
+    	<span ng-style="{'color': stringToRGB(message.username)}">{{message.username}}</span>: {{message.message}}
+  	</div>
+	<input type="text" placeholder="type your message here" ng-model="chatInput" ng-change="typing()"></input>
+	<button ng-click="sendMessage()">SEND</button>
+	<p ng-show="isTyping">{{typing.username}} is typing...</p>
+</div>
