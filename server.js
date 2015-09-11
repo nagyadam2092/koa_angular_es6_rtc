@@ -13,8 +13,8 @@ var port = process.env.PORT || 3000;
 
 // Routing
 
-app.use(staticCache("frontend/public", {}, {}));
-app.use(staticCache(path.join(__dirname, 'frontend/public')));
+app.use(staticCache("./frontend/public", {}, {}));
+app.use(staticCache(path.join(__dirname, './frontend/public')));
 
 app.use(function*() {
   this.body = fs.createReadStream(path.join(__dirname, 'frontend/public/index.html'));
